@@ -27,7 +27,7 @@ jobs:
       - name: Generate Android project
         run: |
           flutter create . \
-            --platforms=android \
+            --platforms=android,ios \
             --project-name=tv_remote \
             --org=com.basav.tvremote
 
